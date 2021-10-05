@@ -7617,6 +7617,24 @@ body {
       color: #1de9b6;
       margin: 0 .75rem 0 0; }
 
+.features-list-nopadding {
+  list-style: none; }
+.features-list-nopadding li {
+  float: left;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+  font-size: 1.05rem;
+  padding-left: 0;
+  font-weight: 500; }
+.features-list-nopadding li:before {
+  position: relative;
+  font-family: FontAwesome;
+  font-size: 14px;
+  content: "\f10c";
+  color: #1de9b6;
+  margin: 0 .75rem 0 0; }
+
 /*Pricing tables*/
 .pricing-table .pricing-list {
   margin-bottom: 3rem;
