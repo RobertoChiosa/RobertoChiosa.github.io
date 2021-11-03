@@ -20,3 +20,6 @@
 .env.production.local
 
 *.log
+.Rproj.user
+.RData
+.Rhistory
